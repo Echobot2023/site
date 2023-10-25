@@ -20,14 +20,14 @@ body {
    
   }
   header img{
-    height: 60px;
-    width: 60px;
+    height: 120px;
+    width: 120px;
     
   }
 
   header  a{
     color: black;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Sometype Mono', monospace;
     font-size: 15pt;
     text-decoration: none;
   }
@@ -38,6 +38,7 @@ body {
     font-family: 'Roboto', sans-serif;
     border: 3px solid blue(0, 0, 0);
     margin-left: 12rem;
+
     
   }
   
@@ -128,12 +129,16 @@ body {
   
  
   /* MOBILE */
-  @media (max-width: 667px) {
+  @media (max-width: 450px) {
 
-
+    *{
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
     body {
       font-family: sans-serif;
-      background-color: #ee530b;
+      background-color: #ffffff;
     }
     
     header {
@@ -141,7 +146,7 @@ body {
       display: flex;
       justify-content: space-around;
       align-items: center;
-      width: 100vw;
+      width: 100%;
       height:150px ;
       padding: 10px;
      
@@ -154,7 +159,7 @@ body {
   
     header  a{
       color: black;
-      font-family: 'Roboto', sans-serif;
+      font-family: 'Sometype Mono', monospace;
       font-size: 15pt;
       text-decoration: none;
     }
@@ -163,8 +168,9 @@ body {
     header  h1{
       color: #ffffff;
       font-family: 'Roboto', sans-serif;
-     margin-left: 300px;
+     margin-left: 90px;
       border: 3px solid blue(0, 0, 0);
+      text-align: left;
       
     }
     
@@ -175,7 +181,7 @@ body {
     
     .posts h2 {
       color: #0000ff;
-      font-size: 2rem;
+      font-size: 5px;
       margin-bottom: 20px;
     }
     
@@ -200,6 +206,7 @@ body {
       background-color: #aa1f2b;
       padding: 20px;
       text-align: center;
+      width: 100%;
     }
   
     .redes-sociais img{
@@ -212,8 +219,10 @@ body {
     
     .noticia1{
       width: 95%;
-      height: 320px;
+      height: auto;
       display: flex;
+      align-items: center;
+      flex-direction: column;
       gap: 10px;
       padding: 50px;
       background-color: lightgrey;
@@ -224,10 +233,24 @@ body {
   .noticia1 img{
     border-radius: 20px;
   }
+  .noticia1 img{
+    width: 350px;
+    height: 200px;
+    border-radius: 15px;
+    border: 2px solid rgba(0, 0, 0, 0.11);
+    margin-top: 15pt;
+  }
   .not{
     padding: 20px;
   }
-
-
+  .not p{
+    font-size: 14pt;
+  }
+  .not h2{
+    font-size: 20px;
+  }
+  #barrared{
+    width: 100%;
+  }
 
   }

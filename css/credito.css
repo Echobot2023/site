@@ -21,14 +21,14 @@ body {
    
   }
   header img{
-    height: 150px;
-    width: 150px;
+    height: 120px;
+    width: 120px;
     
   }
 
   header  a{
     color: black;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Sometype Mono', monospace;
     font-size: 15pt;
     text-decoration: none;
   }
@@ -87,14 +87,47 @@ body {
 
 
 body{
-    background-color: yellow;
+    background-color: rgb(255, 255, 255);
 }
 
-header{
-    background-color: black;
-    color: white;
+header {
+  background-color: #222852;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height:150px ;
+  padding: 10px;
+ 
+}
+header img{
+  height: 60px;
+  width: 60px;
+  
 }
 
+header  a{
+  color: black;
+  font-family: 'Sometype Mono', monospace;
+  font-size: 15pt;
+  text-decoration: none;
+}
+
+
+header  h1{
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+ margin-left: 90px;
+  border: 3px solid blue(0, 0, 0);
+  text-align: left;
+  
+}
+footer {
+  background-color: #aa1f2b;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
   }
 
   main > .titulos {
@@ -116,9 +149,12 @@ header{
   }
   
   .aluno p{
-    color: #0000ff;
+    color: #ffffff;
     font-family: 'Times New Roman', Times, serif;
     padding: 5px 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #aa1f2b;
+    border-radius: 5px;
   }
   .aluno img{
     width: 150px;
@@ -126,6 +162,7 @@ header{
     border-radius: 10px;
     border: 3px solid #aa1f2b;
     padding: 5px;
+    
   }
   .classedealuno{
     margin-top: 20px;
@@ -134,5 +171,5 @@ header{
     justify-content: space-around;
     align-items: center;
     gap: 10px ;
-    margin-left: 45px;
+    margin-left: auto;
   }
