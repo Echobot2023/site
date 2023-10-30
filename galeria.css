@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    background-color: #ffffff;
+  }
+.container {
+    width: 1300px;
+    height: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-foto {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.data-foto {
+    width: 90vw;
+    margin: 20px;
+    padding-top: 15px;
+
+    background-color: #aa1f2b;
+}
+
+.data-foto p {
+    text-align: center;
+    color: white;
+    font-size: large;
+}
+
+.fotos {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+
+.Fotos2 {
+    display: flex;
+}
+
+main img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px 10px 10px 10px;
+    border-color: #aa1f2b;
+    padding: 2px;
+    border-style: solid;
+}
+
+footer {
+    width: 100%;
+    background-color: #aa1f2b;
+    padding: 20px;
+    text-align: center;
+}
+
+/*MOBILE*/
+@media (max-width: 480px) {
+
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: sans-serif;
+        background-color: #ffffff;
+    }
+
+    header {
+        background-color: #222852;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 150px;
+
+    }
+
+    header img {
+        height: 60px;
+        width: 60px;
+
+    }
+
+    header a {
+        color: black;
+        font-family: 'Sometype Mono', monospace;
+        font-size: 15pt;
+        text-decoration: none;
+    }
+
+
+    header h1 {
+        color: #ffffff;
+        font-family: 'Roboto', sans-serif;
+        margin-left: 90px;
+        border: 3px solid blue(0, 0, 0);
+        text-align: left;
+
+    }
+
+
+
+    .redes-sociais {
+        margin-top: 20px;
+    }
+
+    .redes-sociais a {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    footer {
+        background-color: #aa1f2b;
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .redes-sociais img {
+        width: 50px;
+        height: 50px;
+    }
+}
