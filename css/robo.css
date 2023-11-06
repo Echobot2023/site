@@ -1,27 +1,294 @@
-#menu {
-    z-index: 2;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    background-color: #ffffff;
   }
   
-  #menu-bar {
-    width: 45px;
-    height: 40px;
-    margin: 30px 0 20px 20px;
-    cursor: pointer;
-  }
-  
-  .bar {
-    height: 5px;
+  header {
+    background-color: #222852;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     width: 100%;
-    background-color: #DC052D;
+    height:150px ;
+    padding: 10px;
+   
+  }
+  header img{
+    height: 120px;
+    width: 120px;
+    
+  }
+
+  header  a{
+    color: black;
+    font-family: 'Sometype Mono', monospace;
+    font-size: 15pt;
+    text-decoration: none;
+  }
+ 
+  
+  header  h1{
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    border: 3px solid blue(0, 0, 0);
+    margin-left: 12rem;
+
+    
+  }
+  
+
+  .redes-sociais {
+    margin-top: 20px;
+  }
+  
+  .redes-sociais a {
     display: block;
-    border-radius: 5px;
-    transition: 0.3s ease;
+    margin-bottom: 10px;
   }
-  
-  #bar1 {
-    transform: translateY(-4px);
+
+  .conteudo {
+    margin: 35px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgb(230, 230, 230);
+    font-family: Merriweather;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.texto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.imagens{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+    border-radius: 18px;
+    border: 7px solid dimgray;
+}
+.imagem{
+    margin: 10px auto;
+    width: 500px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;  
+    border-radius: 18px;
+    border: 7px solid dimgray;
+}
+.imagem img{
+    width: 500px;
+    height: 300px;
+}
+.img3{
+   
+    margin: 20px auto;
+    width: 625px;
+    
+    
+}
+
+
+
+
+  footer {
+    background-color: #aa1f2b;
+    padding: 20px;
+    text-align: center;
   }
-  
-  #bar3 {
-    transform: translateY(4px);
-  } 
+  @media (max-width: 450px) {
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: sans-serif;
+      background-color: #ffffff;
+    }
+    
+    header {
+      background-color: #222852;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding: 10px;
+      height: 150px;
+    }
+    
+    header img {
+      height: 80px;
+      width: 80px;
+    }
+    
+    header a {
+      color: black;
+      font-family: 'Sometype Mono', monospace;
+      font-size: 12pt;
+      text-decoration: none;
+    }
+    
+    header h1 {
+      color: #ffffff;
+      font-family: 'Roboto', sans-serif;
+      border: 3px solid #000;
+      margin-left: 6rem;
+    }
+    
+    .redes-sociais {
+      margin-top: 10px;
+    }
+    
+    .redes-sociais a {
+      display: block;
+      margin-bottom: 5px;
+    }
+    
+    .conteudo {
+      margin: 10px;
+      margin-top: 20px;
+      margin-bottom: 15px;
+      padding: 10px;
+      background-color: white;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 5px 5px 5px rgb(230, 230, 230);
+      font-family: Merriweather;
+    }
+    
+    .texto {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    
+    .imagens {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: space-around;
+      border-radius: 18px;
+      border: 7px solid dimgray;
+    }
+    
+    .imagem {
+      margin: 10px auto;
+      width: 100%;
+      align-items: center;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      border-radius: 18px;
+      border: 7px solid dimgray;
+    }
+    
+    .imagem img {
+      width: 100%;
+      height: auto;
+    }
+    
+    .img3 {
+      margin: 20px auto;
+      width: 100%;
+    }
+    
+    footer {
+      background-color: #aa1f2b;
+      padding: 15px;
+      text-align: center;
+    }
+    
+    p {
+      text-align: justify;
+      text-indent: 10px;
+      font-size: 14pt;
+    }
+    
+    ul {
+      list-style-type: disc;
+      margin: 0;
+      padding: 0;
+    }
+    
+    li {
+      margin-bottom: 5px;
+    }
+    
+    main {
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px;
+      padding: 10px;
+    }
+    
+    #turma {
+      border-radius: 15px;
+      border: 2px solid #000;
+      padding: 5px;
+      margin: 15px 0;
+      width: 100%;
+    }
+    
+    .equipes {
+      margin: 10px 0;
+      padding: 10px;
+      text-indent: 10px;
+      font-size: 12pt;
+    }
+    
+    @media screen and (max-width: 450px) {
+      /* Estilos para dispositivos com largura de tela de até 450px */
+    
+      header {
+        height: 100px;
+      }
+    
+      header h1 {
+        font-size: 18px;
+        margin-left: 6rem;
+      }
+    
+      .conteudo {
+        margin: 10px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        padding: 10px;
+        background-color: white;
+        border-radius: 15px;
+        box-shadow: 5px 5px 5px rgb(230, 230, 230);
+        font-family: Merriweather;
+      }
+    
+      .imagem img {
+        width: 100%;
+        height: auto;
+      }
+    }
+    
+  }
