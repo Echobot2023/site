@@ -97,7 +97,7 @@ footer {
 }
 
 /*MOBILE*/
-@media (max-width: 414px) {
+@media (max-width: 450px) {
 
     * {
         padding: 0;
