@@ -142,6 +142,57 @@ footer {
         text-align: left;
 
     }
+    .container {
+        width: 300px;
+        height: auto;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main-foto {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+    
+    .data-foto {
+        width: 90vw;
+        margin: 20px;
+        padding-top: 15px;
+    
+        background-color: #aa1f2b;
+    }
+    
+    .data-foto p {
+        text-align: center;
+        color: white;
+        font-size: large;
+    }
+    
+    .fotos {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+    
+    }
+    
+    .Fotos2 {
+        display: flex;
+    }
+    
+    main img {
+        width: 250px;
+        height: auto;
+        border-radius: 10px 10px 10px 10px;
+        border-color: #aa1f2b;
+        padding: 2px;
+        border-style: solid;
+    }
 
 
 
